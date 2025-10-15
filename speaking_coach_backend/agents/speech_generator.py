@@ -31,7 +31,7 @@ def create_speech_generator():
     # 🧩 Initialize Groq LLM
     llm = ChatGroq(
         groq_api_key=groq_api_key,
-        model="Gemma2-9b-It",
+        model="llama-3.1-8b-instant",
         temperature=0.8  # adds creativity but keeps coherence
     )
 
